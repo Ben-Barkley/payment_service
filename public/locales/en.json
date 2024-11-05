@@ -1,0 +1,16 @@
+{
+    "welcome": "Welcome to Payment Service App",
+    "login": "Login",
+    "logout": "Logout",
+    "bill_payment": "Bill Payment",
+    "support_chat": "Support Chat",
+    "budgeting": "Budgeting Tools",
+    "transfer": "Payments & Transfers",
+    "account_balance": "Account Balance",
+    "transaction_history": "Transaction History",
+    "currency_converter": "Currency Converter",
+    "dark_mode": "Dark Mode",
+    "light_mode": "Light Mode",
+    "notifications": "Notifications",
+    "alerts": "Alerts"
+  }
