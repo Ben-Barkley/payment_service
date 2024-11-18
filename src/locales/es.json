@@ -1,0 +1,16 @@
+{
+  "welcome": "Bienvenido a la aplicación de servicio de pago",
+  "login": "Iniciar sesión",
+  "logout": "Cerrar sesión",
+  "bill_payment": "Pago de facturas",
+  "support_chat": "Chat de soporte",
+  "budgeting": "Herramientas de presupuesto",
+  "transfer": "Pagos y transferencias",
+  "account_balance": "Saldo de cuenta",
+  "transaction_history": "Historial de transacciones",
+  "currency_converter": "Convertidor de moneda",
+  "dark_mode": "Modo oscuro",
+  "light_mode": "Modo claro",
+  "notifications": "Notificaciones",
+  "alerts": "Alertas"
+}

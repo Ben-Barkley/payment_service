@@ -1,6 +1,7 @@
 import React from "react";
 import { Layout, Button } from "antd";
 import Notifications from "../components/Notifications";
+import CurrencyConverter from "@/components/CurrencyConverter";
 
 const { Content } = Layout;
 
@@ -9,6 +10,7 @@ const Dashboard = () => {
     <Content style={{ padding: "50px" }}>
       <h1>Dashboard</h1>
       <Notifications />
+      <CurrencyConverter />
       <Button type="primary">Bill Payments</Button>
       <Button type="primary">Support Chat</Button>
       <Button type="primary">Budgeting Tools</Button>
