@@ -1,9 +1,27 @@
 // next.config.mjs
 
-export default {
+import transpileModules from 'next-transpile-modules';
+
+const withTM = transpileModules([
+  'antd',
+  '@ant-design/icons',
+  'rc-util',
+  'rc-pagination',
+  'rc-picker',
+]);
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  // No need for custom webpack configuration related to babel-loader
 };
+
+export default withTM(nextConfig);
+
+
+// export default {
+//   reactStrictMode: true,
+//   // No need for custom webpack configuration related to babel-loader
+// };
 
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {};

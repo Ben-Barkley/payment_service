@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 
 function MainHeader() {
-  return <header>Header Content</header>;
+  return <header>Header Contents</header>;
 }
 
 export default MainHeader;

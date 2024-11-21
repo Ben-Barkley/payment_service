@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, Button } from "antd";
-import Notifications from "../components/Notifications";
+import Notifications from "../components/Notification";
 import CurrencyConverter from "@/components/CurrencyConverter";
 
 const { Content } = Layout;
